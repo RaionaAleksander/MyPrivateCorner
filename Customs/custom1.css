@@ -109,7 +109,7 @@ p {
     }
 }
 
-@media screen and (min-width: 1500px) and (max-width: 800px) {
+@media screen and (min-width: 1500px) {
     div.container1 {
         width: 70%;
     }
