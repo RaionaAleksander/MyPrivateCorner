@@ -1,0 +1,76 @@
+body {
+    background-image: url('../Images/Desk/Wall.png');
+}
+
+p {
+    font-size: 30px;
+}
+
+.container1 {
+    width: 1200px;
+    /*background-color: gray;*/
+    margin: auto;
+    padding: 8px;
+    position:relative;
+}
+
+/*Part1*/
+#part1 {
+    padding-top: 40px;
+    position: relative;
+    text-align: center;
+}
+
+#timer {
+    width: 400px;
+    
+}
+
+#clock{
+    color: #33cd02;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*Part3*/
+#part3 {
+    padding-top: 110px;
+    float: right;
+}
+
+#frame3, #foto3 {
+    -moz-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    -o-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg); 
+}
+
+#frame3 {
+    width: 440px;
+    position: absolute;
+}
+
+#foto3 {
+    width: 391px;
+    margin-top: 26px;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 1400px) {
+    .container1 {
+        width: 800px;
+    }
+}
+
+@media screen and (min-width: 2200px) {
+    .container1 {
+        width: 1800px;
+    }
+}
