@@ -22,17 +22,18 @@ p {
 }
 
 #timer {
-    width: 400px;
+    width: 200px;
     
 }
 
 #clock{
     color: #33cd02;
-    font-size: 50px;
+    font-size: 26px;
     font-family: 'Courier New', Courier, monospace;
     position: absolute;
     top: 50%;
     left: 50%;
+    padding-top: 22px;
     -moz-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
@@ -40,11 +41,35 @@ p {
     transform: translate(-50%, -50%);
 }
 
+/*Part2*/
+#part2 {
+    padding-top: 90px;
+    float: left;
+}
+
+#frame1, #foto1 {
+    -moz-transform: rotate(348deg);
+    -webkit-transform: rotate(348deg);
+    -o-transform: rotate(348deg);
+    -ms-transform: rotate(348deg);
+    transform: rotate(348deg); 
+}
+
+#frame1 {
+    width: 250px;
+    position: absolute;
+}
+
+#foto1 {
+    width: 224px;
+    margin-top: 13px;
+    margin-left: 13px;
+}
 
 
 /*Part3*/
 #part3 {
-    padding-top: 110px;
+    padding-top: 260px;
     float: right;
 }
 
@@ -57,17 +82,28 @@ p {
 }
 
 #frame3 {
-    width: 440px;
+    width: 300px;
     position: absolute;
 }
 
 #foto3 {
-    width: 391px;
-    margin-top: 26px;
-    margin-left: 25px;
+    width: 267px;
+    margin-top: 16px;
+    margin-left: 16px;
 }
 
-@media screen and (max-width: 1400px) {
+
+@media screen and (max-width: 1000px) {
+    .container1 {
+        width: 360px;
+    }
+
+    #part3 {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
     .container1 {
         width: 800px;
     }
@@ -78,3 +114,4 @@ p {
         width: 1800px;
     }
 }
+
