@@ -69,7 +69,7 @@ p {
 
 /*Part3*/
 #part3 {
-    padding-top: 260px;
+    padding-top: 180px;
     float: right;
 }
 
@@ -93,6 +93,33 @@ p {
 }
 
 
+/*Part4*/
+#part4 {
+    padding-top: 500px;
+    float: none;
+}
+
+#frame2, #foto2 {
+    -moz-transform: rotate(358deg);
+    -webkit-transform: rotate(358deg);
+    -o-transform: rotate(358deg);
+    -ms-transform: rotate(358deg);
+    transform: rotate(358deg); 
+}
+
+#frame2 {
+    width: 340px;
+    position: absolute;
+}
+
+#foto2 {
+    width: 260px;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+
+
+
 @media screen and (max-width: 1000px) {
     .container1 {
         width: 360px;
@@ -100,13 +127,17 @@ p {
 
     #part3 {
         padding-top: 130px;
-        padding-left: 30px;
+        padding-left: 25px;
         float: none;
     }
 
     #part2 {
         padding-top: 80px;
         float: none;
+    }
+
+    #part4 {
+        padding-top: 125px;
     }
 }
 
