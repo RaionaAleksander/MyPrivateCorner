@@ -8,7 +8,6 @@ p {
 
 .container1 {
     width: 1200px;
-    /*background-color: gray;*/
     margin: auto;
     padding: 8px;
     position:relative;
@@ -23,7 +22,6 @@ p {
 
 #timer {
     width: 200px;
-    
 }
 
 #clock{
@@ -43,8 +41,11 @@ p {
 
 /*Part2*/
 #part2 {
-    padding-top: 90px;
-    float: left;
+    /*padding-top: 90px;
+    float: left;*/
+    position: absolute;
+    top: 255px;
+    left: 230px;
 }
 
 #frame1, #foto1 {
@@ -69,8 +70,11 @@ p {
 
 /*Part3*/
 #part3 {
-    padding-top: 180px;
-    float: right;
+    /*padding-top: 180px;
+    float: right;*/
+    position: absolute;
+    top: 710px;
+    left: 720px;
 }
 
 #frame3, #foto3 {
@@ -95,8 +99,9 @@ p {
 
 /*Part4*/
 #part4 {
-    padding-top: 500px;
-    float: none;
+    position: absolute;
+    top: 650px;
+    left: 125px;
 }
 
 #frame2, #foto2 {
@@ -119,7 +124,64 @@ p {
 }
 
 
+/*Part5*/
+#part5 {
+    position: absolute;
+    top: 300px;
+    left: 710px;
+}
 
+#frame4 {
+    width: 250px;
+    position: absolute;
+}
+
+#foto4 {
+    width: 220px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+/*Part6*/
+#part6 {
+    position: absolute;
+    top: 1025px;
+    left: 205px;
+}
+
+#frame5 {
+    width: 240px;
+    position: absolute;
+}
+
+#foto5 {
+    width: 210px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+/*Part7*/
+#part7 {
+    position: absolute;
+    top: 1400px;
+    left: 100px;
+}
+
+#desk {
+    width: 1000px;
+}
+
+
+/* 1000 - 1200 */
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    
+}
+
+
+
+/*
 @media screen and (max-width: 1000px) {
     .container1 {
         width: 360px;
@@ -151,5 +213,5 @@ p {
     .container1 {
         width: 1800px;
     }
-}
+}*/
 
